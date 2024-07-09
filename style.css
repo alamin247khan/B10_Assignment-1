@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
+}
+
+.hero {
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.btn {
+  width: 228px;
+  height: 58px;
+  margin-top: 20px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hero_content {
+  position: absolute;
+  width: 1440px;
+  height: 652px;
+  top: 131px;
+  bottom: 4462px;
+  background-image: url(assets/Hero-bg.png);
+}
+
+.hero-text {
+  position: absolute;
+  width: 998px;
+  height: 582px;
+  left: 221px;
+  right: 221px;
+  top: 26px;
+  bottom: 4506px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  text-align: center;
+}
+
+.hero-text h2 {
+  /* "In the near future, I hope to become a Developer." */
+  position: static;
+  width: 998px;
+  height: 136px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hero-text p {
+  width: 852px;
+  height: 52px;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hero-text .btn {
+  /* Frame 2 */
+  width: 208px;
+  height: 66px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 24px 21px 24px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  /* font layout */
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0%;
+  text-align: center;
+}
