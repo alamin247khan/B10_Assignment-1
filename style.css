@@ -125,3 +125,9 @@ nav {
   letter-spacing: 0%;
   text-align: center;
 }
+
+.fram6{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
