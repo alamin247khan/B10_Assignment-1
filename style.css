@@ -39,14 +39,16 @@ nav button {
 .hero {
   width: 1440px;
   height: 652px;
-  background: url(assets/Hero-bg.png) no-repeat;
+  background: url(assets/Hero-bg.png) no-repeat; /* Background IMG */
 }
 
 .hero_content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 998px;
   height: 582px;
-  left: 221px;
-  right: 221px;
-  top: 157px;
-  bottom: 4506px;
+  inset: 157px 221px 4506px 221px; /* Position & Inset: Top Right Bottom Left */
 }
