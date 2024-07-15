@@ -15,7 +15,7 @@ nav {
   /* Navigation Bar */
   display: flex;
   justify-content: space-between;
-  margin: 38px 135px 66px 150px; /* Margin & Padding: Top Right Bottom Left */
+  margin: 38px 135px 35px 150px; /* Margin & Padding: Top Right Bottom Left */
   align-items: center;
 }
 
@@ -34,6 +34,7 @@ nav button {
 }
 
 .hero {
+  position: relative;
   width: 1440px;
   height: 652px;
   background: url(assets/Hero-bg.png) no-repeat; /* Background IMG */
@@ -48,19 +49,61 @@ nav button {
   text-align: center;
   width: 998px;
   height: 582px;
-  inset: 157px 221px 4506px 221px; /* Position & Inset: Top Right Bottom Left */
+  inset: 26px 221px 44px 221px; /* Position & Inset: Top Right Bottom Left */
 }
 
 .hero .hero_content img {
+  position: absolute;
   width: 240.28px;
   height: 240px;
-  margin: 26px auto;
-  inset: 0% 0% 0% 0%; /* Position & Inset: Top Right Bottom Left */
+  inset: 0px 378.86px 342px 378.86px; /* Position & Inset: Top Right Bottom Left */
 }
 
-.hero .hero_content h2 {
+.hero_content h1 {
+  position: absolute;
   width: 998px;
-  height: 136px;
-  margin: 24px 0px;
+  top: 298px;
   font: bolder 800 48px "Azeret Mono"; /* Font: style weight size height family */
+}
+
+.hero_content p {
+  position: absolute;
+  top: 400px;
+  opacity: 0.7;
+}
+
+.hero_content button {
+  position: absolute;
+  bottom: 45px;
+  width: 208px;
+  height: 66px;
+  padding: 21px 24px 21px 24px;
+  font: bolder 600 25px "Azeret Mono";
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+}
+
+.why_dev{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 154px;
+}
+
+.why_dev .frame{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+
+#text{
+  text-align: end;
+}
+
+.frame .text_content{
+  
 }
