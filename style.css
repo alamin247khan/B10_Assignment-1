@@ -149,7 +149,20 @@ nav button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  inset: ;
-  background-color: ;
-  padding: 0px;
+  margin-left: 140px;
+}
+
+.my_inspiration h2 {
+  color: rgb(13, 19, 33);
+  font: bold 800 32px/37px "Azeret Mono";
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.my_inspiration p {
+  color: rgb(13, 19, 33);
+  font: normal 400 16px/26px "Azeret Mono";
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0px 80px 0px;
 }
