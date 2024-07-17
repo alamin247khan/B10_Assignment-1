@@ -241,7 +241,8 @@ iframe {
   align-items: center;
 }
 
-.next_target_text, .next_target_text {
+.next_target_text,
+.next_target_text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -278,4 +279,70 @@ iframe {
 .tails img {
   width: 120px;
   margin-right: 10px;
+}
+
+.i_need_support {
+  width: 1140px;
+  height: 314px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.363),
+    url(Email);
+  background-image: url(assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 41px 0px 110px 136px;
+}
+
+.support_text {
+  text-align: center;
+  padding: 64px 48px 64px 48px;
+}
+
+.support_text h3 {
+  font: bolder 700 32px/36px "Azeret Mono";
+  color: rgb(255, 255, 255);
+}
+
+.support_text p {
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font: normal 400 16px/26px "Azeret Mono";
+  margin: 16px 0px 24px 0px;
+}
+
+.support_text input {
+  width: 548px;
+  height: 57px;
+  margin: 0px 16px;
+  padding: 19px 20px 19px 20px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.support_text button {
+  width: 120px;
+  height: 58px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 17px 20px 17px 20px;
+}
+
+footer {
+  margin-left: 139px;
+  width: 1140px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .text {
+  font: bold 600 20px/23px "Azeret Mono";
+}
+.footer_img{
+  display: flex;
+}
+.footer_img img { 
+  margin-left: 24px;
 }
