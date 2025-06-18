@@ -249,7 +249,7 @@ main {
 }
 
 .card_js {
-  background: rgba(255, 223, 0, 0.05);
+  background: rgba(13, 19, 33, 0.05);
 }
 
 .cards img {
@@ -265,7 +265,7 @@ main {
 .cards p {
     font-size: 16px;
     line-height: 26px;
-    opacity: 0.7;
+   opacity: 0.7;
     margin-bottom: 24px;
 }
 
@@ -287,7 +287,7 @@ main {
 .next_target_text h1 {
     font-size: 32px;
     font-weight: 800;
-    color: var(--primary-color);
+   color: var(--primary-color);
     margin-bottom: 24px;
 }
 
@@ -310,6 +310,10 @@ main {
   gap: 24px;
 }
 
+.tails:last-child {
+  margin-bottom: 0;
+}
+
 .tails img {
   width: 95px;
   height: auto;
@@ -323,25 +327,25 @@ main {
 .tails_text p {
     font-size: 16px;
     line-height: 26px;
-    opacity: 0.7;
+   opacity: 0.7;
     margin-bottom: 24px;
 }
 
 .i_need_support {
   min-height: 314px;
-  border-radius: 16px;
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(assets/handshake.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../assets/images/handshake.jpg);
   background-size: cover;
   background-position: center;
   margin-top: 80px;
+  border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .support_text {
-  text-align: center;
   padding: 64px 48px;
+  text-align: center;
   color: var(--white-color);
 }
 
@@ -400,73 +404,4 @@ footer .text {
 .footer_img {
   display: flex;
   gap: 24px;
-}
-
-/* Responsive Styles */
-@media screen and (max-width: 1024px) {
-    nav, main, footer {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .why_dev {
-        padding: 40px;
-    }
-    .why_dev .frame {
-        flex-direction: column;
-        text-align: center;
-    }
-    .why_dev .frame .img_site {
-        order: -1;
-    }
-    .frame .text_content {
-        max-width: 100%;
-    }
-    .my_current_target .cards {
-        flex-direction: column;
-    }
-    .tails {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        gap: 20px;
-        padding: 20px 20px;
-    }
-
-    main {
-        padding: 40px 20px;
-    }
-
-    .hero_content h1 {
-        font-size: 32px;
-    }
-
-    .why_dev {
-        padding: 20px;
-    }
-    .why_dev_text {
-        padding: 0 10px;
-    }
-     .why_dev .frame {
-        padding: 20px;
-     }
-
-    .support_text form {
-        flex-direction: column;
-    }
-    .support_text input {
-        width: 100%;
-    }
-    .support_text button {
-        width: 100%;
-    }
-    footer {
-        flex-direction: column;
-        gap: 20px;
-        padding: 30px 20px;
-    }
 }
